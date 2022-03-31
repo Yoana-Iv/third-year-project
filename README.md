@@ -11,14 +11,13 @@ You might need to install some additional dependencies like Material UI. The ful
 
 ### For Windows machines:
 
-From inside the Project folder, run <npm run start-api> followed by <npm start> in different console windows.\
+From inside the Project folder, run `npm run start-api` followed by `npm start` in different console windows.\
 This will run the application in development mode. To view it, open [http://localhost:3000] (http://localhost:3000) in a browser.
 
 ### For other operating systems:
 
-Same steps as above, but, instead of running <npm run start-api>, use the command <cd project-api && venv\\Scripts\\flask run --no-debugger>, \
-replacing <cd project-api> and <venv\\Scripts\\flask> with the equivalents to the same paths in the machine's OS.
+Same steps as above, but, instead of running `npm run start-api`, use the command `cd project-api && venv\\Scripts\\flask run --no-debugger`, replacing `cd project-api` and `venv\\Scripts\\flask` with the equivalents to the same paths in the machine's OS.
 
 ## Running tests
 
-To run the python tests, use the command <python -m pytest> from inside the project-api folder.
+To run the python tests, use the command `python -m pytest` from inside the project-api folder.
