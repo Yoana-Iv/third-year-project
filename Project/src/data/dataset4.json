@@ -1,0 +1,46 @@
+{
+    "intro" : "For your last task, let's help Alice from task 2 with something. Apart from raising money for her school, she also likes to have her own savings. She started by setting aside 10 pounds when she was younger and then proceeded to double the amount she had each year. You are given the different sums she has had throughout the years (with the first year she started saving money labelled Year 1, the second year Year 2 and so forth). Alice would like to know how fast her savings will continue to increase if she keeps doubling what she has every year. Would you be able to help her out with a graph?",
+    "values" : {
+        "Year 1": 10,
+        "Year 2": 20,
+        "Year 3": 40,
+        "Year 4": 80,
+        "Year 5": 160,
+        "Year 6": 320,
+        "Year 7": 640,
+        "Year 8": 1280,
+        "Year 9": 2560,
+        "Year 10": 5120,
+        "Year 11": 10240
+    },
+    "feedback" : {
+        "type" : {
+            "line" : "A line graph is very suitable for this example. Since the goal of the visualization is to see the trend with which the values increase, using a line graph will make it easier to notice how fast the values are growing, without being distracted by unnecessary information.",
+            "bar" : "A bar graph could work here – the dataset does portray big changes in values over time, after all, and they are well suited for bar charts. However, the goal of this visualization is to identify the rate with which Alice’s money is increasing and this will be much easier if all of the values were connected in the graph – say, with a line, perhaps.",
+            "pie" : "Considering the great difference between values in the dataset, a pie chart might not be very appropriate - the first few years would take a very small portion of the pie and the result would appear quite confusing. There is no real opportunity for spotting trends by using a pie chart either."
+        },
+        "logarithmic" : {
+            "yes" : "Here using a logarithmic scale actually makes sense. With normal scaling, Alice will not be able to see how fast her money increased at first - due to the very large values in later years, the graph gives the impression that her savings are not growing at a steady rate, which is what one would expect if she doubles them each year. Logarithmic scaling deals with the great difference in values and Alice can better see how she can expect her money to increase in the future if she keeps adding to it in the same way.",
+            "no" : "Normal scaling here portrays the growth in Alice's savings strangely. Because such a huge difference exists between values in the early and later years, at a first glance one would think she was not adding any money in the beginning and then suddenly started making big contributions. That is, however, wrong - she has always been doubling her money and the proportion which she adds each year has not changed. In order to better see the rate at which her savings grow, perhaps a different kind of scaling is appropriate - something that will get rid of the huge differences in the values."
+        },
+        "textures" : {
+        },
+        "horizontal": {
+        },
+        "colour": {
+            "blue line": "Considering this is a line graph made mostly for visualizing a trend, the colour chosen is not incredibly important, as long as the viewer can clearly see the line.",
+            "green line": "Considering this is a line graph made mostly for visualizing a trend, the colour chosen is not incredibly important, as long as the viewer can clearly see the line.",
+            "red line" : "Considering this is a line graph made mostly for visualizing a trend, the colour chosen is not incredibly important, as long as the viewer can clearly see the line."
+        },
+        "order" : {
+            "keys" : "Since the labels in this dataset are simply numbered years meant to display the passage of time, ordering them alphabetically would not make much sense. In fact, such an ordering would put Year 11 before Year 2, confusing the viewer quite a bit.",
+            "up" : "Here the values are already in ascending order since Alice's savings increase every year. Therefore, such sorting would not change the original dataset. Still, when dealing with data that is in chronological order, it is better to leave it as it is because sorting it might result in any trends being lost.",
+            "down" : "In this particular dataset, sorting the values in descending order would simply reverse the list of years (Year 11 will be first, Year 10 will be second, etc.). This will most likely confuse the viewer and, at a first glance, make them believe that Alice's money is getting less and less with time.",
+            "default": "Leaving the labels as they are is the best option here since it allows the viewer to correctly follow the passage of time when looking for a trend."
+        },
+        "percentage" : {
+        },
+        "legend" : {
+        }
+    }
+}

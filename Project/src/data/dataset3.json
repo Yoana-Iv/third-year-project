@@ -1,0 +1,47 @@
+{
+    "intro" : "For the next exercise, let's go back to the orange juice example (because what can be better than orange juice?). This time, instead of different counties, you are given the number of litres of orange juice that the citizens of Kent consumed every month during the last year. If you had to use a graph to visualize this statistic and help the viewer see how people’s drinking habits changed over the year, how would you go about it?",
+    "values" : {
+        "January": 18,
+        "February": 25,
+        "March": 21,
+        "April": 33,
+        "May": 43,
+        "June": 37,
+        "July": 50,
+        "August": 65,
+        "September": 20,
+        "October": 19,
+        "November": 17,
+        "December": 24
+    },
+    "feedback" : {
+        "type" : {
+            "line" : "Here we are looking at orange juice consumption during different times of the year. When looking at the graph, the viewer would most likely want to be able to notice some trends - such as “people drink more during the summer months”. Therefore, a line graph would be most useful when spotting such trends.",
+            "bar" : "A bar graph here could be useful - at the very least, it will tell the viewer what the consumption each month was. However, when it comes to values that change with time, a bar chart is most suited for portraying big changes that would not be captured as well with a line graph. Therefore, if one wants to spot trends within this particular dataset using such a chart might not be the best idea.",
+            "pie" : "In this case, a pie chart will show how much orange juice people drank each month as compared to the amount they drank the entire year. This can still be useful if the viewer wants to see in which months people drank the most juice, but a pie chart will get rid of the initial values in favour of percentages. So, it should not be used unless the task specifically states that the goal of the graph is to see the share each month has in the yearly total of juice drank."
+        },
+        "logarithmic" : {
+            "yes" : "Using a logarithmic scale can be appropriate when one or few of the values in a dataset are much bigger than the rest or when the data represents some trend with huge increases in the values at every step. Here the values are all within a similar range so using a logarithmic scale is not required and would simply confuse the viewer and alter the visualization without adding anything useful.",
+            "no" : ""
+        },
+        "textures" : {
+        },
+        "horizontal": {
+        },
+        "colour": {
+            "blue line": "Colour does not play as huge of a role in line graphs as in other graph types (especially in this dataset that only has one statistic – the litres of orange juice – to display), so its choice can largely be left to the graph creator.",
+            "green line": "Colour does not play as huge of a role in line graphs as in other graph types (especially in this dataset that only has one statistic – the litres of orange juice – to display), so its choice can largely be left to the graph creator.",
+            "red line" : "Colour does not play as huge of a role in line graphs as in other graph types (especially in this dataset that only has one statistic – the litres of orange juice – to display), so its choice can largely be left to the graph creator."
+        },
+        "order" : {
+            "keys" : "Although sorting the labels in some way is usually a good idea, when dealing with a set of labels that traditionally appear in a set order (such as months or days of the week), it is better to leave them in that order. Displaying them in a different way can easily confuse the viewer (for example, August coming before January makes sense if you are sorting the values in alphabetical order but seeing such an ordering will give anyone pause).",
+            "up" : "Although sorting the labels in some way is usually a good idea when dealing with a set of labels that traditionally appear in a set order (such as months or days of the week), it is better to leave them in that order. Displaying them in a different way can easily confuse the viewer (for example, October coming before August makes sense if you are sorting the values in ascending order but seeing such an ordering will give anyone pause).",
+            "down" : "Although sorting the labels in some way is usually a good idea when dealing with a set of labels that traditionally appear in a set order (such as months or days of the week), it is better to leave them in that order. Displaying them in a different way can easily confuse the viewer (for example, August coming before January makes sense if you are sorting the values in descending order but seeing such an ordering will give anyone pause).",
+            "default": "In this particular case, leaving the labels sorted as they were originally is the best option, since it conforms to the viewer's expectations of how the months should appear."
+        },
+        "percentage" : {
+        },
+        "legend" : {
+        }
+    }
+}

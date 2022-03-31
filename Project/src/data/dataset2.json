@@ -1,0 +1,45 @@
+{
+    "intro" : "Now for something different - six friends have been tasked with raising money for a school event, but each of them has contributed a different amount. Now they wish to show their teachers what part of the total money raised each of them has collected in order to be rewarded appropriately. Do you think you can design a graph to help them with this?",
+    "values" : {
+        "Alice": 20,
+        "John" : 5,
+        "Matthew": 40,
+        "Evelyn" : 10,
+        "Maddie" : 3,
+        "Fred" : 22
+    },
+    "feedback" : {
+        "type" : {
+            "line" : "Line graphs are most useful and helpful for the viewer when they are portraying some kind of trend - for example how a certain value changes with time or varying conditions. Since here the goal is to compare six different values to each other, this is not the most appropriate graph type to use.",
+            "bar" : "A bar graph is good for visualizing different values, but here our primary goal is to compare how the values relate to each other. While a bar graph can definitely still work for this purpose, since we are trying to show what part of the whole amount each student has contributed, there is a more visually appealing way to present the data.",
+            "pie" : "A pie chart can be considered the most appropriate for the circumstances - this is a small dataset of values that add up to 100 and we are trying to visualize what parts of the whole they represent. A pie chart is therefore a visually pleasing graph that conveys such information very well."
+        },
+        "logarithmic" : {
+            "yes" : "Using a logarithmic scale can be appropriate when one or few of the values in a dataset are much bigger than the rest or when the data represents some trend with huge increases in the values at every step. Here the values are all within a similar range so using a logarithmic scale is not required and would simply confuse the viewer and alter the visualization without adding anything useful.",
+            "no" : ""
+        },
+        "textures" : {
+        },
+        "horizontal": {
+        },
+        "colour": {
+            "normal": "All colour palettes for the pie chart have been picked from a selection of colour blind friendly palettes with an emphasis on using contrasting colours to make them easy to distinguish between for any viewer. Which one of the palettes is used is a purely visual choice and is up to the graph creator.",
+            "bright": "All colour palettes for the pie chart have been picked from a selection of colour blind friendly palettes with an emphasis on using contrasting colours to make them easy to distinguish between for any viewer. Which one of the palettes is used is a purely visual choice and is up to the graph creator.",
+            "light" : "All colour palettes for the pie chart have been picked from a selection of colour blind friendly palettes with an emphasis on using contrasting colours to make them easy to distinguish between for any viewer. Which one of the palettes is used is a purely visual choice and is up to the graph creator."
+        },
+        "order" : {
+            "keys" : "While an alphabetical order of the labels might seem a logical choice, it does not massively change how the data is presented and it is not necessary, considering the small dataset.",
+            "up" : "Since the goal of the graph is to show what contribution each of the students has made, sorting the values in ascending/descending order helps the viewer focus on the differences between their contributions and quickly identify who contributes the most/least. Whether the order will be ascending or descending does not matter very much (especially if making a pie chart) so that is mostly a design choice.",
+            "down" : "Since the goal of the graph is to show what contribution each of the students has made, sorting the values in ascending/descending order helps the viewer focus on the differences between their contributions and quickly identify who contributes the most/least. Whether the order will be ascending or descending does not matter very much (especially if making a pie chart) so that is mostly a design choice.",
+            "default" : "Since the dataset here is relatively small, leaving the values as they are listed is not a big issue. You might still wish to sort them if you want the chart to look a certain way – for example, to display the different contributions from the most to the least."
+        },
+        "percentage" : {
+            "yes" : "While not necessary, showing the percentage values on a pie chart can be very helpful and provide additional information to viewers, besides just seeing how the percentage values appear visually. With a small data set such as this where there is plenty of space on the pie slices for percentages, it is even recommended.",
+            "no" : ""
+        },
+        "legend" : {
+            "yes" : "Using a legend helps when a pie chart includes too many slices or has long labels and not enough space. In this situation, a legend is not required, since the viewer can get all the information they need from the chart itself. It can still be included for good practice of course.",
+            "no" : ""
+        }
+    }
+}
