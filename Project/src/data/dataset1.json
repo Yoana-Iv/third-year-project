@@ -1,0 +1,58 @@
+{
+    "intro" : "The data below shows how many litres of orange juice the citizens of different counties of East and South East England drank last year (this is a fake statistic, made just for this exercise). If you were presented with this data, how would you go about visualizing it?",
+    "values" : {
+        "Buckinghamshire": 424,
+        "East Sussex" : 542,
+        "Hampshire": 234,
+        "The Isle of Wight" : 976,
+        "Kent" : 372,
+        "Oxfordshire" : 653,
+        "Berkshire" : 432,
+        "Surrey" : 657,
+        "West Sussex" : 812,
+        "Durham" : 198,
+        "Tyne and Wear" : 527,
+        "Northumberland" : 282,
+        "North Yorkshire" : 549
+    },
+    "feedback" : {
+        "type" : {
+            "line" : "Considering the data does not show a trend, but different values for different regions, perhaps using a line graph is not very appropriate.",
+            "bar" : "A bar graph is suitable here, since it compares the different values, without suggesting they might have some relation between them.",
+            "pie" : "A pie chart could be a good idea if the goal of the graph was to compare orange juice consumption in different counties. However, using a pie chart will lead to the original information being lost, since the number of litres is translated into percentages. Therefore, if the task does not explicitly state to show what part of the entire region's consumption a county contributes, using a pie chart is not very appropriate."
+        },
+        "logarithmic" : {
+            "yes" : "Using a logarithmic scale can be appropriate when one or few of the values in a dataset are much bigger than the rest or when the data represents some trend with huge increases in the values at every step. Here the values are all within a similar range so using a logarithmic scale is not required and would simply confuse the viewer and alter the visualization without adding anything useful.",
+            "no" : ""
+        },
+        "textures" : {
+            "yes" : "While applying textures to a chart can help the viewer distinguish between separate bars, in this case, every bar refers to the same statistics, so differentiating them is not necessary and may actually be confusing for some viewers. The textures themselves might also not appeal to everyone's sense of aesthetics.",
+            "no" : ""
+        },
+        "horizontal": {
+            "yes" : "Overall, horizontal bar charts can be useful in two cases. The first case is if the labels cannot properly fit on a vertical chart. The graphs created here have their labels formatted in order to avoid this issue and therefore are displayed on multiple lines. This might not be possible on every dataset or the graph creator may just want a cleaner look for longer labels, so using a horizontal diagram is perfectly understandable.\nThe other reason for which you could use this type of bar chart is when you are showing data points that have been ranked in some way and sorted by their values. A horizontal graph will better emphasize the largest/smallest numbers. Here there is no specific request for ranking the counties by the litres of orange juice drunk and utilizing a horizontal bar chart to show ascending or descending values may not be the best way to represent the data initially.",
+            "no" : ""
+        },
+        "colour": {
+            "random" : "A colourful bar graph usually suggests that differently coloured bars represent data points that stand out from each other in some ways - for example, if we have a statistic for two different age groups, each age group can have a unique colour assigned to its bars. Since this dataset does not fall into this category, using an overly colourful graph is mostly confusing and might pose an extra challenge for colour blind viewers.",
+            "red" : "Using a gradient is not mandatory, but it does help a viewer immediately distinguish the data points with the highest values, which allows the data to be understood more quickly. And, since a gradient is just different shades of the same colour, a colour blind viewer will not have difficulties telling the shades apart.",
+            "blue" : "Using a gradient is not mandatory, but it does help a viewer immediately distinguish the data points with the highest values, which allows the data to be understood more quickly. And, since a gradient is just different shades of the same colour, a colour blind viewer will not have difficulties telling the shades apart.",
+            "green" : "Using a gradient is not mandatory, but it does help a viewer immediately distinguish the data points with the highest values, which allows the data to be understood more quickly. And, since a gradient is just different shades of the same colour, a colour blind viewer will not have difficulties telling the shades apart.",
+            "red only" : "Using the same colour for every bar makes sense here, since all bars show the same statistic (the number of litres of orange juice). It also does not alienate colour blind viewers, who will still be able to see how the values look on the graph without missing any important information, even if they cannot see the colour properly. Whether to use red, green, blue or even some other shade is mostly up to the graph creator.",
+            "green only" : "Using the same colour for every bar makes sense here, since all bars show the same statistic (the number of litres of orange juice). It also does not alienate colour blind viewers, who will still be able to see how the values look on the graph without missing any important information, even if they cannot see the colour properly. Whether to use red, green, blue or even some other shade is mostly up to the graph creator.",
+            "blue only" : "Using the same colour for every bar makes sense here, since all bars show the same statistic (the number of litres of orange juice). It also does not alienate colour blind viewers, who will still be able to see how the values look on the graph without missing any important information, even if they cannot see the colour properly. Whether to use red, green, blue or even some other shade is mostly up to the graph creator."
+        },
+        "order" : {
+            "keys" : "An alphabetical ordering is usually a good idea when the labels consist of some kind of text and the dataset is not meant to portray a trend or a ranking. It is a sensible way to present the labels, particularly in this case when they are names of counties.",
+            "up" : "A sorting by value will draw the viewer’s attention towards the counties where either the most or the least amount of orange juice was drunk. The intentions of the graph creator are really important here – if your goal is to present some sort of ranking and back it up with a nice visualization, then sorting the dataset in ascending or descending order is a great idea. In this case, there is no set aim for creating a graph, so a different ordering can be used at first to get a better feel of how the data looks when plotted and decide if it can benefit from resorting.",
+            "down" : "A sorting by value will draw the viewer’s attention towards the counties where either the most or the least amount of orange juice was drunk. The intentions of the graph creator are really important here – if your goal is to present some sort of ranking and back it up with a nice visualization, then sorting the dataset in ascending or descending order is a great idea. In this case, there is no set aim for creating a graph, so a different ordering can be used at first to get a better feel of how the data looks when plotted and decide if it can benefit from resorting.",
+            "default" : "Not sorting the data is certainly an option and the viewer would still be able to get the information they need from looking at the graph. However, considering this is not a tiny dataset and that it includes the names of counties, reordering them in some meaningful way is a good practice and will make it much easier for people to quickly find a specific county."
+        },
+        "percentage" : {
+
+        },
+        "legend" : {
+
+        }
+    }
+}
