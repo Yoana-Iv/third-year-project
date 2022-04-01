@@ -5,7 +5,7 @@ https://docs.npmjs.com/downloading-and-installing-node-js-and-npm.
 
 ## Warning
 
-You might need to install some additional dependencies like Material UI. The full list of dependecies can be found in package.json >> "dependencies".
+You might need to install (using `npm install`) some additional dependencies like Material UI. The full list of dependecies can be found in package.json >> "dependencies".
 
 ## Running the project
 
