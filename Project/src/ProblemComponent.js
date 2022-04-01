@@ -31,6 +31,7 @@ class ProblemComponent extends Component{
     // a graph, the API is called for the graph to be made again
     componentDidMount(){
         window.scrollTo(0, 0);
+        this.setState({graphGenerated: false});
         if (this.state.type !== ""){
             this.getGraph();
         }
